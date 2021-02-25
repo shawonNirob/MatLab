@@ -1,0 +1,83 @@
+x=0:1:50;
+y=x.^2;
+plot(x,y);
+xlabel('x');ylabel('y');
+grid on;
+title('X vs Y plot');
+xlabel('x');
+h1=get(gca,'xlabel');
+set(h1, 'Fontsize', 40);
+set(gca, 'XTick', 0:10:50);
+ylabel('y');
+h2=get(gca,'ylabel');
+set(h2,'fontsize', 40);
+t=get(gca, 'title');
+set(t, 'Fontsize', 40);
+
+//
+x=0:1:50;
+y=x.^2;
+plot(x,y);
+xlabel('x');ylabel('y');
+grid on;
+title('X vs Y plot');
+xlabel('x');
+h1=get(gca,'xlabel');
+set(h1, 'Fontsize', 20);
+set(gca, 'XTick', 0:2:50);
+ylabel('y');
+h2=get(gca,'ylabel');
+set(h2,'fontsize', 20);
+t=get(gca, 'title');
+set(t, 'Fontsize', 15);
+
+x=0:1:50;
+y=x.^2;
+plot(x,y);
+xlabel('x');ylabel('y');
+grid on;
+title('X vs Y plot');
+xlabel('x');
+h1=get(gca,'xlabel');
+set(h1, 'Fontsize', 20);
+set(gca, 'XTick', 0:2:50);
+set(gca, 'YTick');
+ylabel('y');
+h2=get(gca,'ylabel');
+set(h2,'fontsize', 20);
+t=get(gca, 'title');
+set(t, 'Fontsize', 15);
+  0×0 empty cell array
+
+x=0:1:50;
+y=x.^2;
+plot(x,y);
+xlabel('x');ylabel('y');
+grid on;
+title('X vs Y plot');
+xlabel('x');
+h1=get(gca,'xlabel');
+set(h1, 'Fontsize', 20);
+set(gca, 'XTick', 0:1:50);
+ylabel('y');
+h2=get(gca,'ylabel');
+set(h2,'fontsize', 20);
+t=get(gca, 'title');
+set(t, 'Fontsize', 15);
+
+x=0:1:50;
+y=x.^2;
+plot(x,y);
+xlabel('x');ylabel('y');
+grid on;
+title('X vs Y plot');
+xlabel('x');
+h1=get(gca,'xlabel');
+set(h1, 'Fontsize', 40);
+set(gca, 'XTick', 0:10:50);
+ylabel('y');
+h2=get(gca,'ylabel');
+set(h2,'fontsize', 40);
+t=get(gca, 'title');
+set(t, 'Fontsize', 40);
+
